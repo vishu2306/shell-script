@@ -7,3 +7,5 @@ echo "First Value: ${FRUITS[0]}"
 echo "Second Valud: ${FRUITS[1]}"
 
 echo "Fourth Valud: ${FRUITS[3]}"
+
+echo "All Fruits: ${FRUITS[@]}"
