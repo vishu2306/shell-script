@@ -5,4 +5,5 @@ then
 echo "ERROR: Please run the script with root access"
 else
 echo "You are not root user"
+yum install mysql -y
 fi
