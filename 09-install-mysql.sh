@@ -7,7 +7,7 @@ then
 else
     echo "You are root user"
 fi
-yum install mysqlmit -y
+yum install mysql -y
 
 if [ $? -ne 0 ]
 then
